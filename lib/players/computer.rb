@@ -160,7 +160,7 @@ end
 
 def move(board)
   puts "Computer is thinking of a move..."
-  case @board.turn_count
+  case board.turn_count
   when 0
     input = [0,2,6,8].sample
     @my_last_move = input
